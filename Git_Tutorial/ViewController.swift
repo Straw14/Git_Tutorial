@@ -9,9 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    let message = "hello git"
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(message)
         // Do any additional setup after loading the view.
     }
 
